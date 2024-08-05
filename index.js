@@ -183,14 +183,6 @@ window.onload = function() {
       getWeatherData(currentCity, currentUnit, hourlyorWeek);
   });
 
-//   fahrenheitBtn.addEventListener("click", () => {
-//       fahrenheitBtn.classList.add("active");
-//       celciusBtn.classList.remove("active");
-//       tempUnit.forEach(unit => unit.innerText = "°F");
-//       currentUnit = "f";
-//       getWeatherData(currentCity, currentUnit, hourlyorWeek);
-//   });
-
   hourlyBtn.addEventListener("click", () => {
       hourlyBtn.classList.add("active");
       weekBtn.classList.remove("active");
